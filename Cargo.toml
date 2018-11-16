@@ -1,0 +1,11 @@
+[package]
+name = "TinyChain"
+version = "0.1.0"
+authors = ["kayryu <lukayryu@gmail.com>"]
+
+[dependencies]
+kernel32-sys = "*"
+winapi = "*"
+
+[profile.release]
+lto = true
