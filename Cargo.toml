@@ -4,8 +4,7 @@ version = "0.1.0"
 authors = ["kayryu <lukayryu@gmail.com>"]
 
 [dependencies]
-kernel32-sys = "*"
-winapi = "*"
+ctrlc = "*"
 
 [profile.release]
 lto = true
